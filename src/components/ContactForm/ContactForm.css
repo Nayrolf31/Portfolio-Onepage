@@ -1,0 +1,22 @@
+.contact {
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact_form input,
+.contact_form textarea,
+.contact_form button{
+    margin: 3px 0 10px 0;
+    padding: .3rem;
+}
+
+.contact_form button {
+    font-size: 12px;
+}
