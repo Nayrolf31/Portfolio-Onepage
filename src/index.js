@@ -11,8 +11,8 @@ import Contactform from './components/ContactForm/ContactForm'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Portfolio />
     <Cv />
+    <Portfolio />
     <About />
     <Contactform />
   </React.StrictMode>

@@ -84,13 +84,12 @@
     justify-content: center;
     align-items: center;
     color: #000;
-    margin-top: 20px;
+    margin: 20px;
     width: 260px;
     height: 260px;
     background: white;
     border-radius: 150px;
     border: solid 1px black;
-
 }
 
 .header_name p {
@@ -99,6 +98,15 @@
     margin: auto;
     width: auto;
 
+}
+
+.header_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 38px;
+    color: white;
 }
 
 .header_infos {
@@ -156,9 +164,8 @@
 .Card {
     display: flex;
     flex-direction: column;
-    width: 45%;
-    /* height: 300px; */
-    height: auto;
+    width: 95%;
+    height: 360px;
     margin: 8px;
     padding-left: 40px;
     padding-bottom: 40px;
@@ -172,6 +179,7 @@ box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
 
 .Card_title {
     font-family: 'Lobster', cursive;
+    font-size: 38px;
     /* margin-top: -4px; */
 }
 
@@ -179,7 +187,7 @@ box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
     display: flex;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     /* list-style-image: url("../../src/images/trick-or-treat.svg"); */
     list-style: none;
 }
@@ -201,7 +209,7 @@ box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
 .icon-reviews {
     /* color: rgb(177, 0, 0); */
     color: rgb(177 114 0);
-    font-size: 21px;
+    font-size: 28px;
 }
 
 .Rating {

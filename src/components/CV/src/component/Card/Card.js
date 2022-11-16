@@ -4,20 +4,12 @@ const Card = () => {
     return (
         <div className='page_cv'>
             <div className='header_cv'>
-                <div className='navbar_cv'>
-                    <a href='#Compétences'>Compétences</a>
-                    <a href='#Skills'>Skills</a>
-                    <a href='#Expériences professionnelles'>Expériences professionnelles</a>
-                    <a href='#Formations'>Formations</a>
-                    <a href='#Langues'>Langues</a>
-                    <a href='#Qualités'>Qualités</a>
-                </div>
                 <div className="header">
                     <div className="header_name">
                         <p>Maugan<br />Florian</p>
                     </div>
+                    <h1 className='header_title'>Développeur-Web Front-end</h1>
                     <div className='header_infos'>
-                        <h1>Développeur-Web Front-end</h1>
                         <p>06.69.91.02.73 | florian.maugan@gmail.com </p>
                         <p>2 rue de l'Ousseau - Plaisance Du Touch</p>
                     </div>
