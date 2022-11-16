@@ -169,7 +169,12 @@
     margin: 8px;
     padding-left: 40px;
     padding-bottom: 40px;
-    background: rgb(224, 224, 224);
+    /* background: rgb(224, 224, 224); */
+
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.9051995798319328) 100%);
+color: white;
+
     border-radius: 35px 10em 10%;
     border: solid 3px rgb(83 143 167);
     -webkit-box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
@@ -180,6 +185,7 @@ box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
 .Card_title {
     font-family: 'Lobster', cursive;
     font-size: 38px;
+    font-weight: 300;
     /* margin-top: -4px; */
 }
 

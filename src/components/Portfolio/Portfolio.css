@@ -1,4 +1,6 @@
 .page {
+    display: flex;
+    flex-direction: column;
     font-family: 'Lobster', cursive;
     margin: 0 auto;
 }
@@ -13,11 +15,12 @@
 
 article {
     display: flex ;
+    justify-content: center;
     flex-direction: row!important;
     overflow: hidden;
     width: 30%;
     height: auto;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 article:hover {
