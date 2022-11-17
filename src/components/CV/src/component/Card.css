@@ -145,11 +145,17 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(61,61,61,0.6615021008
 @media screen and (max-width:639px) {
     
     .header {
-        height: 300px;
+        height: 460px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-top: 20px;
+    }
+    .header_title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 0;
     }
     .header_infos{
         text-align: center;
