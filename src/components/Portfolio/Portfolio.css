@@ -33,7 +33,7 @@ article:hover {
     z-index: 1;
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:415px) {
 
     article {
         display: flex;
