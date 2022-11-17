@@ -33,6 +33,24 @@ article:hover {
     z-index: 1;
 }
 
+@media screen and (max-width:390px) {
+
+    article {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    article a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
 .portfolio_title {
     display: flex;
     justify-content: center;
