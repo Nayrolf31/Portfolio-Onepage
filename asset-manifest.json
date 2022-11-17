@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Onepage/static/css/main.8829cbdf.css",
-    "main.js": "/Portfolio-Onepage/static/js/main.4bbf6f96.js",
+    "main.css": "/Portfolio-Onepage/static/css/main.aca9ead4.css",
+    "main.js": "/Portfolio-Onepage/static/js/main.8bad3162.js",
     "static/js/787.944f292a.chunk.js": "/Portfolio-Onepage/static/js/787.944f292a.chunk.js",
     "static/media/background2.webp": "/Portfolio-Onepage/static/media/background2.68df44c36bae65faa160.webp",
     "static/media/background.webp": "/Portfolio-Onepage/static/media/background.19d4d60390ad3be8b65e.webp",
@@ -10,12 +10,12 @@
     "static/media/trick-or-treat.svg": "/Portfolio-Onepage/static/media/trick-or-treat.6d892e790fbda2fb7a8f.svg",
     "static/media/page.jpg": "/Portfolio-Onepage/static/media/page.28e177a0e67d3755569f.jpg",
     "index.html": "/Portfolio-Onepage/index.html",
-    "main.8829cbdf.css.map": "/Portfolio-Onepage/static/css/main.8829cbdf.css.map",
-    "main.4bbf6f96.js.map": "/Portfolio-Onepage/static/js/main.4bbf6f96.js.map",
+    "main.aca9ead4.css.map": "/Portfolio-Onepage/static/css/main.aca9ead4.css.map",
+    "main.8bad3162.js.map": "/Portfolio-Onepage/static/js/main.8bad3162.js.map",
     "787.944f292a.chunk.js.map": "/Portfolio-Onepage/static/js/787.944f292a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8829cbdf.css",
-    "static/js/main.4bbf6f96.js"
+    "static/css/main.aca9ead4.css",
+    "static/js/main.8bad3162.js"
   ]
 }
