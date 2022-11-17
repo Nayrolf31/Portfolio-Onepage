@@ -76,6 +76,15 @@ const Card = () => {
                                     <FaRegStar className="icon-reviews" />
                                 </div>
                             </li>
+                            <li>Github
+                                <div className='Rating'>
+                                    <FaStar className="icon-reviews" />
+                                    <FaStar className="icon-reviews" />
+                                    <FaStar className="icon-reviews" />
+                                    <FaStar className="icon-reviews" />
+                                    <FaRegStar className="icon-reviews" />
+                                </div>
+                            </li>
                             <li>Procreate
                                 <div className='Rating'>
                                     <FaStar className="icon-reviews" />
@@ -85,6 +94,7 @@ const Card = () => {
                                     <FaRegStar className="icon-reviews" />
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
                 </div>
