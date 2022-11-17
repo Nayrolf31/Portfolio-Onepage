@@ -5,5 +5,7 @@ body {
     background: linear-gradient(90deg, rgb(235, 235, 235) 0%, rgb(185, 185, 185) 45%, rgb(160, 160, 160) 100%);
     background-image:url(../images/background2.webp);
     background-attachment: fixed;    
+    background-repeat: no-repeat;
+    background-size: cover;
     backdrop-filter: brightness(1.25);
 }
