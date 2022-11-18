@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-Onepage/static/css/main.d74e4b4f.css",
-    "main.js": "/Portfolio-Onepage/static/js/main.8bad3162.js",
+    "main.css": "/Portfolio-Onepage/static/css/main.13b7a7f8.css",
+    "main.js": "/Portfolio-Onepage/static/js/main.377b6f34.js",
     "static/js/787.944f292a.chunk.js": "/Portfolio-Onepage/static/js/787.944f292a.chunk.js",
     "static/media/background2.webp": "/Portfolio-Onepage/static/media/background2.68df44c36bae65faa160.webp",
-    "static/media/background.webp": "/Portfolio-Onepage/static/media/background.19d4d60390ad3be8b65e.webp",
     "static/media/photo_profil.webp": "/Portfolio-Onepage/static/media/photo_profil.c003860520a0b64854c3.webp",
     "static/media/pacour.webp": "/Portfolio-Onepage/static/media/pacour.f031bd0722696dc3138b.webp",
     "static/media/trick-or-treat.svg": "/Portfolio-Onepage/static/media/trick-or-treat.6d892e790fbda2fb7a8f.svg",
     "static/media/page.jpg": "/Portfolio-Onepage/static/media/page.28e177a0e67d3755569f.jpg",
     "index.html": "/Portfolio-Onepage/index.html",
-    "main.d74e4b4f.css.map": "/Portfolio-Onepage/static/css/main.d74e4b4f.css.map",
-    "main.8bad3162.js.map": "/Portfolio-Onepage/static/js/main.8bad3162.js.map",
+    "main.13b7a7f8.css.map": "/Portfolio-Onepage/static/css/main.13b7a7f8.css.map",
+    "main.377b6f34.js.map": "/Portfolio-Onepage/static/js/main.377b6f34.js.map",
     "787.944f292a.chunk.js.map": "/Portfolio-Onepage/static/js/787.944f292a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d74e4b4f.css",
-    "static/js/main.8bad3162.js"
+    "static/css/main.13b7a7f8.css",
+    "static/js/main.377b6f34.js"
   ]
 }
