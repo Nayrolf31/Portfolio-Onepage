@@ -11,7 +11,8 @@ const ContactForm = () => {
         emailjs.sendForm('gmail', 'template_rmm0pku',e.target,"T2-NhhYVYusOUqj7d").then(res=>{
             console.log(res);
         }).catch(err=> console.log(err))
-        window. alert("Votre email à bien était envoyé !");
+        window.alert("Votre email à bien était envoyé !")
+        window.location.reload(true);
     }
     return (
         <div className="contact">
@@ -35,7 +36,7 @@ const ContactForm = () => {
 
                 <label>Message: </label>
                 <textarea name="message" rows='4'/>
-                <input type='submit' value='send'></input>
+                <input className="btn_send" type='submit' value='send'></input>
                 {/* <button type="submit">Envoyer</button> */}
 
             </form>

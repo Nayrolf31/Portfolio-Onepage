@@ -19,6 +19,7 @@ article {
     flex-direction: row!important;
     overflow: hidden;
     width: 25%;
+    min-width: 330px;
     height: auto;
     margin: 20px auto;
 }

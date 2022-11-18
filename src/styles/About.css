@@ -4,8 +4,9 @@
     justify-content: space-between;
     margin: auto;
     margin-top: 35px; margin-bottom: 35px;
-    width: 80%;
-    height: 260px;
+    /* width: 80%; */
+    width: 85%;
+    height: auto;
     border: solid 3px rgb(54, 87, 100);
     border-radius: 25px;
     padding: 25px 20px;
@@ -14,24 +15,35 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 
 }
 
 .presentation h1 {
+    display: flex;
+    justify-content: center;
     font-family: Lobster,cursive;
     font-size: 36px;
     font-weight: 300;
+    margin: 25px auto ;
     color: white;
 }
 
 .presentation p {
+    display: flex;
+    justify-content: space-between;
     font-family: Josefin Sans,sans-serif;
     width: 80%;
     color: white;
     font-size: 20px;
+    margin: 10px auto;
     padding-bottom: 25px;
+}
+
+.photo_about {
+    width: 45%;
+    height: auto;
 }
 
 .presentation img {
     border-radius: 70% 30% 70% 30%/20% 80% 30% 70%;
-    width: auto;
-    height: 120%;
+    width: 350px;
+    height: auto;
 }
 
 .right {
@@ -44,6 +56,24 @@ background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+@media screen and (max-width:990px) {
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .presentation_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo_about{
+        display: flex;
+        justify-content: center;
+        margin: 25px auto;
+    }
 }
 
 @media screen and (max-width:415px) {

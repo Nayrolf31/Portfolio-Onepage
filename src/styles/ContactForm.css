@@ -12,20 +12,27 @@
 }
 
 .contact_form input,
-.contact_form textarea,
-.contact_form button{
+.contact_form textarea
+{
     margin: 3px 0 10px 0;
     padding: 10px;
     background-color: rgb(211, 211, 211);
     border-radius: 20px;
 }
 
-.contact_form button {
+.btn_send {
+    cursor: pointer;
     font-size: 20px;
+    background-color: rgb(101, 163, 214)!important;
 }
+
 
 label {
     color: white;
     font-family: Lobster;
-    font-size: 18px;
+    font-size: 24px;
+    padding: 0 15px;
+    
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.5886729691876751) 0%, rgba(255,255,255,0) 100%);
 }

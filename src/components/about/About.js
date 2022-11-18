@@ -7,20 +7,22 @@ function About() {
 
     return (
         <div className='presentation_contain'>
-            <div className='presentation right' >
+            {/* <div className='presentation right' > */}
+            <div className='presentation' >
                 <div className='presentation_card left'>
                     <h1>Qui suis-je?</h1>
                     <p >
-                        Je m'appelle Florian Maugan et j'ai actuellement 27ans, je suis actuellement en reconversion professionnel grace à le formation
+                        Je m'appelle Florian Maugan et j'ai actuellement 27 ans, je suis actuellement en reconversion professionnel grace à le formation
                         Devloppeur Web de OpenClassrooms, après quelques années dans le monde du Tatouage, je suis revenue à ma première passion,
                         l'informatique. Après recherches et discutions avec mes contacts, je me suis pris d'intêret pour le développement web, plus particulièrement Front-end.
                     </p>
                 </div>
-                <div>
+                <div className='photo_about'>
                     <img src={image} alt='photo-profil'></img>
                 </div>
             </div>
-            <div className='presentation left row-reverse'>
+            {/* <div className='presentation left row-reverse'> */}
+            <div className='presentation row-reverse'>
                 <div className='presentation_card left'>
                     <h1>Mon pacours</h1>
                     <p>
@@ -28,7 +30,7 @@ function About() {
                         à la suite de cette expérience je me suis lancer dans une reconversion pour devenir Développeur-Web front-end.
                     </p>
                 </div>
-                <div>
+                <div className='photo_about'>
                     <img src={imageparcour} alt='photo-parcour'></img>
                 </div>
             </div>
