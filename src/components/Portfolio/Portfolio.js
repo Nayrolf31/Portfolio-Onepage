@@ -1,13 +1,13 @@
 import React from 'react';
 // import { Image } from 'react-native';
 
-import './Portfolio.css'
+import '../../styles/Portfolio.css'
 
 import imageprojet from '../../images/page.jpg'
 
 function Portfolio() {
 
-  const ImageProjet = "imageprojet";
+  // const ImageProjet = "imageprojet";
 
   return (
 
