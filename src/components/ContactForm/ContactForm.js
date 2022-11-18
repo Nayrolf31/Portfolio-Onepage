@@ -10,7 +10,8 @@ const ContactForm = () => {
 
         emailjs.sendForm('gmail', 'template_rmm0pku',e.target,"T2-NhhYVYusOUqj7d").then(res=>{
             console.log(res);
-        }).catch(err=> console.log(err));
+        }).catch(err=> console.log(err))
+        window. alert("Votre email à bien était envoyé !");
     }
     return (
         <div className="contact">
