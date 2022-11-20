@@ -1,38 +1,5 @@
-.navbar_cv {
-    display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: space-around;
-  }
-  
-  .margin {
-    margin-bottom: 20px;
-  }
-  
-  .navbar_cv a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-weight: 500;
-      color: black;
-      width: 100%;
-      height: 50px;
-      /* background: rgb(198, 233, 253); */
-      background: rgb(240, 166, 29);
-      border: solid black 1px;
-  }
-  
-  .navbar_cv a:hover {
-      background: rgb(91, 120, 131);
-  }
-  
-  @media screen and (max-width:415px) {
-  
-      .navbar_cv {
-          flex-direction: column;
-      }
-  
+  .header_cv {
+    margin-bottom: 80px;
   }
 
   .header {
@@ -40,7 +7,6 @@
     flex-direction: row;
     justify-content: space-between;
 
-    /* background: black; */
     background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(61,61,61,0.6615021008403361) 87%, rgba(213,213,213,0) 100%);
 
@@ -182,9 +148,9 @@ box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
 .Card_Description {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
-    /* list-style-image: url("../../src/images/trick-or-treat.svg"); */
     list-style: none;
 }
 
