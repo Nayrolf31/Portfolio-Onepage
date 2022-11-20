@@ -29,16 +29,16 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(61,61,61,0.6615021008
     height: 260px;
     background: white;
     border-radius: 150px;
-    border: solid 1px black;
+    border: solid 4px #a97300;
 }
-
+/* 
 .header_name p {
     display: flex;
     justify-content: center;
     margin: auto;
     width: auto;
 
-}
+} */
 
 .header_title {
     display: flex;
