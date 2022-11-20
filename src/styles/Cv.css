@@ -16,11 +16,17 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(61,61,61,0.6615021008
     padding-top: 50px;
 }
 
+.header_pdp {
+    width: 260px;
+    border-radius: 50%;
+}
+
 .header_name {
     font-family: 'Lobster', cursive;
     font-size: 45px;
     white-space: normal;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #000;
@@ -31,14 +37,11 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(61,61,61,0.6615021008
     border-radius: 150px;
     border: solid 4px #a97300;
 }
-/* 
-.header_name p {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: auto;
 
-} */
+.header_name p {
+    margin-top: 0;
+    margin-bottom: 130px;
+} 
 
 .header_title {
     display: flex;

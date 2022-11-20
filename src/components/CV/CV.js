@@ -1,11 +1,9 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import { FaStar, FaRegStar } from 'react-icons/fa';
-// import Card from './component/Card/Card'
 // import { ImageBackground } from 'react-native';
 
 import '../../styles/Cv.css'
-// import '../../../styles/Cv.css'
 import '../../styles/index.css'
 
 const Cv = () => {
@@ -19,6 +17,11 @@ const Cv = () => {
                   <div className='header_cv'>
                         <div className="header">
                               <div className="header_name">
+                                    <img
+                                    className='header_pdp'
+                                    src='https://static.jobat.be/uploadedImages/grandprofilfb.jpg'
+                                    alt='photo de profil'
+                                    />
                                     <p>Maugan<br />Florian</p>
                               </div>
                               <h1 className='header_title'>Développeur-Web Front-end</h1>
