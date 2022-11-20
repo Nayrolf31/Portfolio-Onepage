@@ -1,7 +1,7 @@
 .contact {
     max-width: 500px;
     margin: 0 auto;
-    height: 380px;
+    height: 500px;
 
 }
 
@@ -11,27 +11,59 @@
     padding: 10px;
 }
 
+.contact_title {
+    display: flex;
+    justify-content: center;
+    font-family: Lobster;
+    font-size: 34px;
+    font-weight: 300;
+    color: white;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.7287289915966386) 0%, rgba(255,255,255,0) 100%);
+} 
+
 .contact_form input,
 .contact_form textarea
 {
     margin: 3px 0 10px 0;
     padding: 10px;
     background-color: rgb(211, 211, 211);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .btn_send {
     cursor: pointer;
-    font-size: 20px;
-    background-color: rgb(101, 163, 214)!important;
+    color: rgb(255, 255, 255);
+    font-family: Josefin Sans,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 15px ;
+    margin: 15px 0;
+    /* background-color: rgb(101, 163, 214)!important; */
+    background-image: url("https://media.istockphoto.com/id/1202227531/fr/photo/belles-rivi%C3%A8res-glaciaires-%C3%A9meraude-color%C3%A9es-de-lislande-prises-dun-h%C3%A9licopt%C3%A8re.jpg?s=612x612&w=0&k=20&c=zEImM-yCRq3735-TDgzjY_GsdpgOzQVV2o9XhpqdSnM=");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.btn_send:hover {
+    scale: 1.01;
+    transition: 1s;
+    color: rgb(253, 232, 174);
+    border: solid 1px rgb(155, 0, 0);
+}
+
+.contact_card {
+    display: flex;
+    flex-direction: column;
+}
 
 label {
     color: white;
     font-family: Lobster;
     font-size: 24px;
     padding: 0 15px;
+    border-radius: 10px;
     
     background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,0.5886729691876751) 0%, rgba(255,255,255,0) 100%);
