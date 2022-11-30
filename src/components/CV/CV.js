@@ -1,6 +1,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import { FaStar, FaRegStar } from 'react-icons/fa';
+import image from '../../images/photo_profil.webp'
 // import { ImageBackground } from 'react-native';
 
 import '../../styles/Cv.css'
@@ -20,6 +21,7 @@ const Cv = () => {
                                     <img
                                     className='header_pdp'
                                     src='https://static.jobat.be/uploadedImages/grandprofilfb.jpg'
+                                    // src={image}
                                     alt='photo de profil'
                                     />
                                     <p>Maugan<br />Florian</p>

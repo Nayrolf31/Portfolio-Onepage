@@ -6,9 +6,11 @@ body {
     width: auto;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(235, 235, 235) 0%, rgb(185, 185, 185) 45%, rgb(160, 160, 160) 100%);
-    background-image:url(../images/background2.webp);
+    /* background-image:url(../images/background2.webp); */
+    background-image:url(../images/backgroundfull.webp);
     background-attachment: fixed;    
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: brightness(1.25);
+    backdrop-filter: contrast(1.1);
 }

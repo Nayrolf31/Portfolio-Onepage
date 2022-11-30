@@ -18,7 +18,7 @@ function About() {
                     </p>
                 </div>
                 <div className='photo_about'>
-                    <img src={image} alt='photo-profil'></img>
+                    <img src={image} alt='photo-profil'/>
                 </div>
             </div>
             {/* <div className='presentation left row-reverse'> */}
